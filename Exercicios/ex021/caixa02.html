@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(122, 122, 122);
+
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;           
+        }
+        article{
+            background-color: rgb(177, 177, 177);
+        }
+        article > aside  {
+            background-color: rgb(110, 110, 110);
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <p>Esportes política e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis dolorem nulla, iste rem ea eveniet dolores dolor nesciunt corporis eos repellat dignissimos soluta maiores doloribus natus accusamus tenetur, harum voluptas.</p>
+                <aside>
+                    <p>Artigo Escrito por josé da Silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Pedro Antonio</p>
+    </footer>
+</body>
+</html>

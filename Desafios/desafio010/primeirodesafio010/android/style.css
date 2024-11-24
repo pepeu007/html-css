@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Fonteum';
+    src: url(
+        
+    fontes/idroid.otf);
+}
+
+
+body{
+    background-color: rgb(120, 241, 170);
+}
+
+
+header{
+    display: flexbox;
+    background-image: linear-gradient(to top, rgb(4, 78, 41), rgb(11, 204, 108));
+    margin:-21px -20px 1px -20px;
+    padding: 1px 1px 20px 1px;
+    box-shadow: 0px 3px 10px black;
+}
+header > h1{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    margin: 40px 0px 0px 0px;
+    font-size: 48px;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px black;
+    margin: 35px;
+    font-size: 20px;
+}
+
+header > nav > a {
+    font-family:sans-serif;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+header > nav > a:hover{
+    background-color: rgba(8, 160, 84, 0.678);
+    border-radius: 5px;
+}
+
+main{  
+    margin: -19px auto 0px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+    max-width: 800px;
+    min-width: 320px;
+}
+
+main > article > h1 {
+    font-family: 'Fonteum',sans-serif;
+    font-size: 30px;
+    margin: 19px 18px 0px 50px;
+    padding-top: 25px;
+    color: rgb(0, 78, 0);
+}
+
+main > article > p {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+main > article > h2 {
+    background-image: linear-gradient(to right, rgba(69, 206, 138, 0.815), white);
+    color: rgb(0, 92, 0);
+    font-family: 'Fonteum',sans-serif;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+main > article > p > span > a {
+    text-decoration: none;
+    color: rgb(0, 78, 0);
+    font-weight: 700;
+}
+
+main > article > p > span > a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
